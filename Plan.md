@@ -73,12 +73,6 @@
 - `CNAME`：若使用自定义域名，则需在根目录创建此文本文件，内容为完整域名（如`www.example.com`）。配置简单，支持品牌化访问。
 - `404.html`：自定义错误页面，提升用户体验与品牌形象。在页面丢失时仍保持设计风格统一，并可引导用户返回主站。
 
-## 结语：配置逻辑的价值超越形式本身
-
-本文档的核心价值不在于提供一套现成的模板，而在于阐述一种可长期复用的配置范式。通过对项目架构、技术选型、内容组织与可维护性设计的深入剖析，旨在帮助读者理解每一项决策背后的技术合理性与用户体验考量。
-
-设计的本质是解决问题，而非单纯追求美观。本方案所倡导的“极简架构 + 原生技术栈 + 内容驱动设计”理念，正是为了在有限的技术约束下，最大化地实现功能性、性能与可维护性的平衡。鼓励读者以此为基础，根据自身需求进行个性化演进，构建真正属于自己的数字学术名片。
-
 [1]:https://docs.github.com/zh/pages/getting-started-with-github-pages/creating-a-github-pages-site "创建 GitHub Pages 站点 - GitHub 文档"
 [2]:https://docs.github.com/zh/enterprise-server@3.15/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll?platform=mac "使用 Jekyll 创建 GitHub Pages 站点 - GitHub Enterprise Server 3.15 Docs"
 [3]:https://docs.github.com/zh/pages/quickstart?library=true "GitHub Pages 快速入门 - GitHub 文档"
