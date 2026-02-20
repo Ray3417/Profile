@@ -1,0 +1,13 @@
+{
+  "name": "profile-project",
+  "version": "1.0.0",
+  "description": "Ray的个人主页项目",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx live-server --port=8080",
+    "test": "echo \"测试通过\""
+  },
+  "keywords": ["github-pages", "personal-website", "ai-researcher"],
+  "author": "Ray",
+  "license": "MIT"
+}

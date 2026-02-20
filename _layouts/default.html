@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Ray的个人主页</title>
+    
+    <!-- SEO元数据 -->
+    <meta name="description" content="AI研究生 | 机器学习研究员 | 专注深度学习与计算机视觉">
+    <meta name="keywords" content="人工智能,机器学习,深度学习,计算机视觉,AI研究">
+    <meta name="author" content="Ray">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ray的个人主页">
+    <meta property="og:description" content="AI研究生 | 机器学习研究员">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Ray的个人主页">
+    <meta property="twitter:description" content="AI研究生 | 机器学习研究员">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    
+    <!-- Pico CSS框架 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.conditional.min.css">
+    
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 页头组件 -->
+    {% include header.html %}
+    
+    <!-- 主要内容区域 -->
+    <main class="container">
+        {{ content }}
+    </main>
+    
+    <!-- 页脚组件 -->
+    {% include footer.html %}
+    
+    <!-- 自定义JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
